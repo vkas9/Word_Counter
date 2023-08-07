@@ -1,0 +1,50 @@
+/* *{
+    border:1px solid black;
+} */
+body{
+    background-color: black;
+    padding:60px;
+    background-image: url(F.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* opacity: .01; */
+
+}
+h1{
+    
+    /* border:1px solid black; */
+    text-align:center;
+    color:white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding:20px;
+    font-size: 40px;
+    margin-bottom:-10px;
+
+}
+.testa{
+/* border:1px solid black; */
+
+    display: flex;
+    justify-content: center;
+}
+p{
+        /* border:1px solid black; */
+
+    text-align: center;
+    font-size: 25px;
+    color:white;
+    font-family: sans-serif;
+    padding:10px;
+
+}
+textarea{
+    /* font-size: 20px; */
+    border-radius:5px;
+    background-color: rgb(236, 235, 235);
+    opacity: .9;
+    width: 80%;
+}
+span{
+    background-color: black;
+}
