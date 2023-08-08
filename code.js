@@ -1,16 +1,19 @@
 let textbox=document.getElementById("textbox");
 textbox.addEventListener("input",function(){
     var text=this.value;
-   
+    let counts=0;
+    for(pr of text){
+        if(pr==" ")counts++;
+    }
     let char=text.length;
     let sp=document.getElementById("char");
-    sp.innerHTML=char;
+    sp.innerHTML=char-counts;
 
     let count=0;
     for(pr of text){
         if(pr==" ")count++;
     }
-    let space=document.getElementById("space").innerHTML=count;
+    document.getElementById("space").innerHTML=count;
 
     text=text.trim();
     let words=text.split(" ");

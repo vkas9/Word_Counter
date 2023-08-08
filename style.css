@@ -3,7 +3,8 @@
 } */
 body{
     background-color: black;
-    padding:60px;
+    padding:0px;
+    margin: 0px;
     background-image: url(F.png);
     background-repeat:no-repeat;
     background-size:cover;
@@ -25,6 +26,7 @@ h1{
 .testa{
 /* border:1px solid black; */
 
+/* border:2px solid black; */
     display: flex;
     justify-content: center;
 }
@@ -47,4 +49,15 @@ textarea{
 }
 span{
     background-color: black;
+}
+@media (max-width:896px){
+    textarea{
+
+        width:100%;
+    }
+}
+@media (max-width:660px){
+    h1,span,p{
+        font-size: 5vw;
+    }
 }
